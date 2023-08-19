@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #fff;
+  background: #1c1b1b;
   height: 40px;
   font-size: 14px;
   transition: all 0.5s;
@@ -112,7 +112,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #topbar .contact-info a {
   line-height: 1;
-  color: #444444;
+  color: #fff;
   transition: 0.3s;
 }
 #topbar .contact-info a:hover {
@@ -2001,9 +2001,9 @@ color: #f6a94f;
 
 
     .icon-box i ,.bx bi-dot{margin-bottom: 0px !important;
-      font-size: 30px !important;}
+      font-size: 22px !important;}
 
-.icon-title h4{font-size: 22px !important;
+.icon-title h4{font-size: 16px !important;
 font-weight: normal !important;}
 
 
@@ -2042,4 +2042,6 @@ background-position: bottom left !important;
     bottom: 4px !important;
     right: 4px !important;
 }
+.about .py-5{padding: 3px 10px !important;}
+
 }
