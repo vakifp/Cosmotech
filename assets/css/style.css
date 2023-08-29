@@ -2075,3 +2075,34 @@ background-position: bottom left !important;
   flex: 0 0 auto;
   width: 20%;
 }
+
+@media (max-width: 768px)
+{
+  .col-lg-5 {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+
+
+.end-card{
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  border-radius: 10px;
+  font-size: 14px;
+  background-color: #ffffffba;
+  text-align: center;
+}
+.end-card h4{
+  font-size: 18px !important;
+  color: #fff;
+}
+
+
+.footer-img{
+  background: url("../photos/footer-bg.jpg") no-repeat !important;
+ /* background-position: left !important;
+ background-position: bottom left !important; */
+ background-size: cover  !important;
+ background-attachment: fixed !important;
+ }
