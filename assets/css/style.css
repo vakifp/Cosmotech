@@ -400,7 +400,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 110vh;
-  background: url("../img/slider-1-bg-3.jpg") top center;
+  /* background: url("../img/slider-1-bg-3.jpg") top center; */
+  background: url("../photos/page-front.jpg") top center;
   background-size: cover;
   margin-bottom: -200px;
 }
@@ -417,7 +418,8 @@ h1, h2, h3, h4, h5, h6 {
   z-index: 12;
   font-family: Jost;
   height: auto;
-  color: rgb(246, 169, 79);
+  /* color: rgb(246, 169, 79); */
+  color: rgb(29, 67, 124);
   text-decoration: none;
   white-space: normal;
   width: 547px;
@@ -436,7 +438,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 10px 0 0 0;
   font-size: 24px;
   height: auto;
-  color: rgb(255, 255, 255);
+  color: rgb(66, 67, 68);
   text-decoration: none;
   white-space: normal;
   width: 482px;
@@ -671,7 +673,6 @@ background-position: top left;
 # About
 --------------------------------------------------------------*/
 
-}
 
 .about .icon-boxes h4 {
   font-size: 18px;
@@ -728,9 +729,10 @@ transition: 0.5s;
   font-size: 14px;
 }
 .about .video-box {
-  background: url("../img/about_img_13.png") center center no-repeat;
+  background: url("../photos/about-us.jpg") center center no-repeat;
   background-size: cover;
   min-height: 500px;
+  border-radius: 15px;
 }
 
 .about .civil {
@@ -903,11 +905,11 @@ background-attachment: fixed;
 # Services
 --------------------------------------------------------------*/
 .b1{
-  background-image: url('../img/column-top3.jpg');
+  background-image: url('../photos/service-civil.jpg');
   background-size: cover;
 }
 .b2{
-  background-image: url('../img/column-top4.jpg');
+  background-image: url('../photos/service-elec.jpg');
   background-size: cover;
 }
 .b3{
@@ -915,9 +917,14 @@ background-attachment: fixed;
   background-size: cover;
 }
 .b4{
-  background-image: url('../img/column-top6.jpg');
+  background-image: url('../photos/service-elv.jpg');
   background-size: cover;
 }
+.b5{
+  background-image: url('../photos/service-fiber.jpg');
+  background-size: cover;
+}
+
 .services h4{
   top: 170px;
   position: relative;
@@ -1396,8 +1403,17 @@ transition: all ease-in-out 0.3s;
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
-.contact-bg{height: 90vh !important;
-  background: url("../img/slider-2-bg.jpg") top center !important;}
+.contact-bg{height: 70vh !important;
+  background: url("../photos/sub-header-2.jpg") top center !important;
+background-attachment: fixed !important;
+background-size: cover;
+}
+
+.contact-bg-2{height: 70vh !important;
+  background: url("../photos/sub-header-3.jpg") top center !important;
+background-attachment: fixed !important;
+background-size: cover !important;
+}
 
 
   .contact .info {
@@ -1896,9 +1912,18 @@ color: #f6a94f;
 
 .hero-bg {
   width: 100%;
-  height: 90vh !important;
-  background: url("../img/page-title-1.jpg") top center !important;
+  height: 80vh !important;
+  background: url("../photos/sub-banner.jpg") top center !important;
   background-size: cover;
+
+}
+
+.telecommunication {
+  width: 100%;
+  height: 80vh !important;
+  background: url("../photos/Page-12.jpg") top center !important;
+  background-size: cover !important;
+  background-attachment: fixed;
 
 }
 
@@ -2044,4 +2069,9 @@ background-position: bottom left !important;
 }
 .about .py-5{padding: 3px 10px !important;}
 
+}
+
+.col-lg-5 {
+  flex: 0 0 auto;
+  width: 20%;
 }
