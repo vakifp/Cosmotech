@@ -676,7 +676,7 @@ background-position: top left;
 
 .about .icon-boxes h4 {
   font-size: 18px;
-  color: #4b7dab;
+  color: #000;
   margin-bottom: 15px;
 }
 .about .icon-boxes h3 {
@@ -1866,7 +1866,7 @@ color: #f6a94f;
       color: #7b7b7b !important}
 
       .why-ab  .why-box {
-        background: url("../img/about.png") center center no-repeat;
+        background: url("../photos/partners.jpg") center center no-repeat;
         background-size: cover;
         min-height: 500px;
         margin-top: -100px;
@@ -1922,6 +1922,16 @@ color: #f6a94f;
   width: 100%;
   height: 80vh !important;
   background: url("../photos/Page-12.jpg") top center !important;
+  background-size: cover !important;
+  background-attachment: fixed;
+
+}
+
+
+.service_fiber {
+  width: 100%;
+  height: 75vh !important;
+  background: url("../photos/service_fiber.jpg") center !important;
   background-size: cover !important;
   background-attachment: fixed;
 
@@ -2075,13 +2085,32 @@ background-position: bottom left !important;
   flex: 0 0 auto;
   width: 20%;
 }
-
+/* ------------------------------------Mobile Resposive---------------------------------------------------- */
 @media (max-width: 768px)
 {
   .col-lg-5 {
     flex: 0 0 auto;
     width: 100%;
   }
+  .service_fiber {
+    height: 26vh !important;
+    margin-top: 127px;
+  }
+  .telecommunication{
+    height: 26vh !important;
+    margin-top: 127px;
+  }
+  .telecommunication h1{
+    color:#fff !important; 
+  }
+  .contact-bg-2{
+    height: 26vh !important;
+    margin-top: 127px;
+  }
+  contact-bg-2 h1{
+    font-size: 18px !important;
+  }
+
 }
 
 
@@ -2097,7 +2126,10 @@ background-position: bottom left !important;
   font-size: 18px !important;
   color: #fff;
 }
-
+.end-card p{
+  font-size: 18px !important;
+  color: #000 !important;
+}
 
 .footer-img{
   background: url("../photos/footer-bg.jpg") no-repeat !important;
